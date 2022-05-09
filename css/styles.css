@@ -1,6 +1,7 @@
 body{
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
+  font-size: calc(100% + 1vw + 1vh);
 }
 
 h1 {
@@ -44,7 +45,6 @@ h1 {
 
 .features-icon{
   color:red;
-  font-size: 4rem;
   margin: 20% 0 5% 0;
 }
 
@@ -80,6 +80,8 @@ h1 {
 .iphone6{
   transform: rotate(20deg);
   width: 60%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 
