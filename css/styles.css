@@ -19,7 +19,7 @@ h2{
 }
 
 .container-fluid{
-  padding: 1% 10%;
+  padding: 1% 10% 7%;
 }
 
 
@@ -86,11 +86,25 @@ h2{
 
 .iphone6{
   transform: rotate(20deg);
-  width: 60%;
+  width: 20%;
   text-align: center;
-  margin: 0 auto;
+  position: absolute;
+  right: 16%;
+  }
+
+
+
+
+/* Features Section */
+
+#features{
+  background-color: #fff;
+  position: relative;
 }
 
+.features{
+  padding: 30px 0 100px 0;
+}
 
 /* Testimonials Section */
 
@@ -127,6 +141,64 @@ h2{
 
 /* Pricing Section */
 
-.pricing{
+#pricing{
   text-align: center;
+  padding: 100px;
+  font-size: 1rem;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+
+/* Cta Section */
+
+#cta{
+  background-color: #ff4c68;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 7% 0;
+  }
+
+.h3{
+  color: #fff;
+  font-size: 3.5rem;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  font-weight: bolder;
+  margin-top: 5%;
+}
+
+
+
+/* Footer Section */
+
+#footer{
+  text-align: center;
+  padding: 7%;
+  font-size: 1rem;
+}
+
+.social{
+  margin:1%;
+}
+
+/* Media Query */
+
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .iphone6{
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+    }
+
 }
