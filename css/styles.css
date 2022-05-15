@@ -2,7 +2,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: calc(100% + 1vw + 1vh);
-}
+  }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -178,13 +178,35 @@ h2{
 
 #footer{
   text-align: center;
-  padding: 7% 15%;
+  padding: 3% 0;
   font-size: 1rem;
 }
 
 .social{
   margin:1%;
 }
+
+
+/* Back Top */
+
+#back-top{
+  position: absolute;
+}
+
+.back-top-icon{
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 10%;
+  left: 2%;
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  white-space: nowrap;
+  color: #000;
+}
+
+
+
+
 
 /* Media Query */
 
@@ -205,4 +227,18 @@ h2{
     transform: rotate(0);
     }
 
+
+
+    .cta-h3{
+      font-size: 2.5rem;
+    }
+
+    .margin{
+      margin-bottom: 20px;
+    }
+
+    .back-top-icon{
+      left: 20%;
+      bottom: 2%;
+    }
 }
